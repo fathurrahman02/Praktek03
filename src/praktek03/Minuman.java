@@ -1,10 +1,10 @@
 package praktek03;
 
 public class Minuman {
-    String merk;
-    String rasa;
-    String bentuk;
-    double harga;
+    private String merk;
+    private String rasa;
+    private String bentuk;
+    private double harga;
     
     void cetakInfo(){
 
