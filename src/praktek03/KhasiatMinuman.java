@@ -6,4 +6,13 @@ public class KhasiatMinuman extends Minuman {
     void throttle(){
         System.out.println("---Terima Kasih---");
     }
+
+    public String getKhasiatMinuman() {
+        return KhasiatMinuman;
+    }
+
+    public void setKhasiatMinuman(String KhasiatMinuman) {
+        this.KhasiatMinuman = KhasiatMinuman;
+    }
+    
 }
