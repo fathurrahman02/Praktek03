@@ -7,6 +7,7 @@ public class MinumanAksi {
            s.setRasa("leci");
            s.setBentuk("gelas");
            s.setHarga(3000);
+           //gak bisas.setKhasiatMinuman()
            
         s.cetakInfo();
         
@@ -18,5 +19,14 @@ public class MinumanAksi {
         System.out.println(s.getBentuk());
         System.out.println("Harganya /t: ");
         System.out.println(s.getHarga());
+        
+        KhasiatMinuman sm = new KhasiatMinuman();
+        sm.setMerk("Torabika");
+        sm.setRasa("Manis");
+        sm.setBentuk("botol");
+        sm.setHarga(20000);
+        sm.setKhasiatMinuman("Penyegar");
+        sm.cetakInfo();
+        System.out.println("khasiatMinuman :"+sm.getKhasiatMinuman());
     }
 }
